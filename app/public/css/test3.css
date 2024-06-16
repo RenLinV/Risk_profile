@@ -1,0 +1,148 @@
+*{
+    font-family: "Andale Mono", monospace;
+    font-weight: 900;
+}
+body {
+    height: 100%;
+    width:100%;
+    background: rgb(19, 4, 39);
+    margin: 0;
+    padding: 0;
+    color:white;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex; /* Используем flexbox для выравнивания элементов */
+    justify-content: space-between; /* Распределяем пространство между элементами */
+    height: 100vh;
+}
+
+.video {
+    width: 70%;
+    display: flex;
+    align-items: center; /* Выравнивание содержимого по центру по вертикали */
+    justify-content: center;
+}
+video {
+    width: 95%;
+}
+
+
+.ans {
+    width: 40%; /* Ширина правого блока 30% от родительского элемента */
+    height: 100%;
+    display: flex;
+    flex-direction: column; /* Элементы внутри правого блока идут друг под другом */
+    align-items: center;
+    box-shadow: -20px 0px 30px -10px rgb(23, 251, 255);
+    padding-top:0px;
+    margin: 0;
+    padding-bottom: 20%;
+}
+
+h2 {
+    color:rgb(255, 0, 144);
+    font-size: 36px;
+    margin-top: 0px;
+    margin-bottom: 10%;
+    text-align: center;
+    font-weight: 1200;
+    display: block;
+    -webkit-text-stroke: 1px rgb(255, 0, 144);
+}
+
+.play{
+    margin-bottom: 20px;
+    text-align: center;
+    max-width: 100%; /* Устанавливаем стандартное выравнивание текста */
+    line-height: 1.8;
+    font-size: 16px;
+    padding-top: 0;
+    margin:auto;
+    background-color: rgba(255, 255, 255, 0); 
+    color: white; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 2px solid rgb(34, 232, 254);
+    border-width: 0.5px;
+    border-radius: 8px;
+    margin-left: 40%;
+    margin-top:3%;
+    margin-bottom:15%;
+}
+
+.play:hover{
+    color: rgb(255, 0, 144);
+    border: 2px solid rgb(190, 7, 53);
+}
+
+.question-block {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 0vh;
+    padding-top: 30%;
+}
+
+.balance, .change, .result {
+    margin-bottom: 15px;
+    text-align: center;
+    max-width: 100%; /* Устанавливаем стандартное выравнивание текста */
+    margin-left: 12%;
+    padding-right: 10%;
+    padding-left: 4%;
+    line-height: 1.8;
+    font-size: 22px;
+}
+#balanceValue, #changeValue, #resultValue{
+    font-size: 22px;    
+    color: rgb(0, 191, 255); /* Цвет текста можно изменить */
+}
+
+
+.formContainer {
+    width: 100%;
+    padding: 0px;
+    margin:0;
+    border: 1px solid #cccccc00;
+    background-color: rgb(19, 4, 39);
+    line-height: 1.8;
+    margin-left: 15%;
+}
+
+.radio {
+    padding-right: 10%;
+}
+
+.formsubmitbutton{
+    display: none;
+    margin-bottom: 20px;
+    text-align: center;
+    max-width: 100%; /* Устанавливаем стандартное выравнивание текста */
+    margin-left: 2%;
+    line-height: 1.8;
+    font-size: 16px;
+    padding: auto;
+    margin-top: 8%;
+    margin-bottom: 3%;
+    background-color: rgba(255, 255, 255, 0); 
+    color: white; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 2px solid rgb(34, 232, 254);
+    border-width: 0.5px;
+    border-radius: 8px;
+    margin-left: 25%;
+}
+
+.formsubmitbutton:hover{
+    color: rgb(255, 0, 144);
+    border: 2px solid rgb(190, 7, 53);
+}
+
+.radioBlock {
+    display: none;
+}

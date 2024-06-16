@@ -1,0 +1,149 @@
+*{
+    font-family: "Andale Mono", monospace;
+    font-weight: 700;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background: rgb(19, 4, 39);
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+}
+form.login {
+    width: 20%;
+    height: 30%;
+    box-shadow: rgba(17, 255, 255, 0.941) 0px 0px 70px 4px;
+    border-radius: 2rem;
+    padding: 8%;
+    padding-top: 2%;
+    position: relative;
+    background: #fff;
+    align-items: center;
+}
+form.card {
+    width: 20%;
+    height: 39%;
+    box-shadow: rgba(17, 255, 255, 0.941) 0px 0px 70px 4px;
+    border-radius: 2rem;
+    padding: 8%;
+    padding-top: 2%;
+    position: relative;
+    background: #fff;
+    align-items: center;
+}
+form input{
+	position: relative;
+	height: 15%;
+  	width: 100%;
+  	outline: none;
+  	border: 1px solid lightgrey;
+    border-top: white;
+    border-right: white;
+    border-left: white;
+  	/*border-radius: 5px;*/
+  	padding: 2px;
+  	font-size: 20px;
+    box-sizing: border-box;
+    margin: 2.5%;
+}
+form button{
+    height: 20%;
+  	width: 40%;
+    font-size: 16px;
+	display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background-color: white; 
+    color: rgb(0, 0, 0); 
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-color:rgb(34, 232, 254);
+    border-width: 0.5px;
+    border-radius: 8px;
+}
+form  button:hover{
+    color: rgb(255, 0, 144);
+    border-color:rgb(79, 3, 46);
+}
+
+.link {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 5%;
+    font-size: 14px;
+}
+
+a {
+    color: rgb(41, 121, 118);
+    background-color: transparent;
+    text-decoration: none;
+    text-align: center;
+    /*margin-left: 21%;
+    font-size: 14px;*/
+}
+a:active {
+    color: rgb(255, 0, 136);
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:hover {
+    color: rgb(255, 0, 136);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.notice {
+    padding: 10px;
+    padding-top: 5px;;
+    border-radius: 100px;
+    margin: 2px ;
+    height: 5%;
+  	width: 95%;
+    font-size: 14px;
+}
+
+.notice.error {
+    border: 1.5px solid #2c4576;
+    background: #f3d3d3;
+    color: #762c2c;
+}
+
+.notice.success {
+    border: 1.5px solid #2c742b;
+    background: #e1fee3;
+    color: #2c742b;
+}
+
+.smallerror {
+    font-size: 8px;
+    color:rgb(195, 32, 73);
+    padding-left: 8px;
+}
+
+.start {
+    height: 20%;
+  	width: 40%;
+    font-size: 16px;
+	display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background-color: white; 
+    color: rgb(0, 0, 0); 
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-color:rgb(34, 232, 254);
+    border-width: 0.5px;
+    border-radius: 8px;
+}
